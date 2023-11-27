@@ -2,11 +2,10 @@
 <html lang="en-ca">
   
   <head>
-
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 3 Portfilio website</title>
- 
+    <!--Adobe Fonts below. 1st is for titles, 2nd is body text-->
   <script> 
   	(function(d) {
     var config = {
@@ -27,8 +26,8 @@
     },
     h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
   })(document);
-</script>
-    
+</script> 
+    <!--CSS SECTION-->
     <style>
       
        @media screen and (min-width: 601px) {
@@ -54,13 +53,13 @@
       .header {
         height: 50px;
         color: #1c3141;
-        font-family:"bucketlist-210";
+        font-family: "bucketlist-210";
         font-size: 70px;
       }
       
       .pagebar {
          text-align: right;
-         font-family:"bucketlist-210";
+         font-family: "bucketlist-210";
          font-size: 30px; 
          margin-top: -40px;
          color: #1c3141;
@@ -68,8 +67,8 @@
       
       .container1 {
       background-color: #bfdbdd;
-      width: 800px;
-      height: 600px;
+      width: 100%;
+      height: 150%;
       display: inline;
       float: left;
       padding-right: 10px;
@@ -77,15 +76,26 @@
       position: static;
       }
       
+      .p1 {
+        font-family: "athelas", serif;
+        font-size: 20px; 
+      }
+      .p2 {
+        font-family: "bucketlist-210", sans-serif;
+        font-size: 25px; 
+        text-align: middle;
+        margin-top: 215px;
+      }
+  
       a:link {
       color: white; 
-		   }
+		     }
 
     .footer {
     background-color: #1c3141;
     margin-top: 1000px;
-    padding-top: 30px;
-    padding-bottom: 50px;
+    width: 100%;
+    height: 50%;
     text-align: right;
     color: #ffffff;
     } 
@@ -93,15 +103,23 @@
     </style>
   </head>
   
+  <!--HTML SECTION-->
   <body>
     
     
   <div class="header">
     Saima's Studio 
     <div>
-      <p>
-      jfefni
+      <p class="p1">
+      Hey! I’m Saima <!--insert emoji-->
+        <br><br> A user experience designer who is passionate 
+        about<br>transforming aesthetic interfaces intouser-friendly<br>solutions.      
     </p>
+      
+      <p class="p2">
+        Check out my work! 
+      </p>
+      
     </div>
     </div>
 
