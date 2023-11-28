@@ -5,6 +5,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Assignment 3 Portfilio website</title>
+    
     <!--Adobe Fonts below. 1st is for titles, 2nd is body text-->
   <script> 
   	(function(d) {
@@ -27,13 +28,9 @@
     h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='https://use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
   })(document);
 </script> 
+    
     <!--CSS SECTION-->
     <style>
-      
-       @media screen and (min-width: 601px) {
-        img{  width: 800px;}
-     p{width: 600px;}
-  }
       
    @font-face {
    font-family: "bucketlist-210", sans-serif;
@@ -48,36 +45,39 @@
       body {
         font-family: "athelas", serif;
  	       background-color: #f5f9ea;
+        margin: 0; /* Reset default margin */
+  			      padding: 0; /* Reset default padding */
       }
       
-      .header {
-        height: 50px;
-        color: #1c3141;
-        font-family: "bucketlist-210";
-        font-size: 100px;
-        margin: 20px 50px 75px 50px;
-      }
+     .header {
+      height: 50px;
+      color: #1c3141;
+      font-family: "bucketlist-210";
+      font-size: 100px;
+      margin: 20px 20px 75px 20px; /* Adjusted margin for top-left corner */
+      text-align: left; /* Align text to the left */
+     }
+
       
-      .pagebar {
-         text-align: right;
-         font-family: "bucketlist-210";
-         font-size: 40px; 
-         margin-top: -130px;
-         color: #1c3141;
-         min-width: 900px
-      }
+     .pagebar {
+      text-align: right; 
+      font-family: "bucketlist-210";
+      font-size: 30px;
+      margin-top: 15px;
+      color: #1c3141;
+      position: absolute; 
+      top: 20px; 
+      right: 20px; 
+      min-width: 50px;
+    }
       
       .container1 {
       background-color: #bfdbdd;
-      width: 100%;
-      height: 180%;
-      display: inline;
-      float: left;
-      padding-right: 10px;
-      margin-top: 400px;
-      position: static;
-      }
-      
+      width: 90%; 
+      margin: 450px auto; 
+      padding: 20px; 
+      height: 500px
+    }
       .p1 {
         font-family: "athelas", serif;
         font-size: 20px; 
@@ -85,8 +85,9 @@
       .p2 {
         font-family: "bucketlist-210", sans-serif;
         font-size: 30px; 
-        text-align: right;
-        margin: 170px 50px 75px 180px;
+        text-align: center;
+        margin-top: 230px;
+
       }
   
       a:link {
@@ -95,12 +96,25 @@
 
     .footer {
     background-color: #1c3141;
-    margin-top: 1000px;
+    margin-top: -500px; /* Adjusted top margin to align with the blue container */
     width: 100%;
-    height: 50%;
+    height: 10%;
     text-align: right;
     color: #ffffff;
-    } 
+  
+  }
+      .footer a {
+    margin-right: 20px;
+  }
+      
+      .heartimg {
+         margin-left: 550px;
+         margin-top: -57px;  
+      }
+      
+      .casestudy1 {
+         margin-left: 50px;  
+      }
       
     </style>
   </head>
@@ -121,23 +135,31 @@
       <p class="p2">
         Check out my work! 
       </p>
+   
+      <div class="heartimg">
+        <img src="Asset 5.svg" alt="heart"  width="30px">
+      </div>
+    <div class="casestudy1">
+      <img src="Asset 6@3x.png" alt="casestudy" width="400px">
+      </div> 
+    
       
+    
     </div>
     </div>
 
-    
-<nav class="pagebar">
-  <a href="#Work">Work</a>
-  <a href="#About me">About me</a>
-  <a href="#Playground">Playground</a>
-  <a href="#Resume">Resume</a>
-</nav>
+
+  <nav class="pagebar">
+    <a href="#Work">Work</a>
+    <a href="#About me">About me</a>
+    <a href="#Playground">Playground</a>
+    <a href="#Resume">Resume</a>
+  </nav>
     
     <div class="container1">
    
       
     </div>
-  
     
     <div class="footer">
       &copy; Made by me!
