@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg id="Layer_2" data-name="Layer 2" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 76.59 72.08">
+  <defs>
+    <style>
+      .cls-1 {
+        fill: #304a61;
+        font-family: HOONWindhillOTFR-KSCpc-EUC-H, 1HOONWindhillOTF;
+        font-size: 48px;
+      }
+
+      .cls-2 {
+        fill: none;
+        stroke: #304a61;
+        stroke-miterlimit: 10;
+      }
+    </style>
+  </defs>
+  <g id="Layer_1-2" data-name="Layer 1">
+    <g>
+      <text class="cls-1" transform="translate(11.54 49.9)"><tspan x="0" y="0">&lt;3</tspan></text>
+      <ellipse class="cls-2" cx="38.3" cy="36.04" rx="37.8" ry="35.54"/>
+    </g>
+  </g>
+</svg>
