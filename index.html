@@ -32,6 +32,17 @@
     <!--CSS SECTION-->
     <style>
       
+      img {
+    		 max-width: 100%; 
+ 	 					  }
+      
+     @media screen and (min-width: 600px) {
+       body{
+       background-color: #f5f9ea;
+       }
+      }
+
+      
    @font-face {
    font-family: "bucketlist-210", sans-serif;
    src: url("https://use.typekit.net/");
@@ -44,9 +55,9 @@
       
       body {
         font-family: "athelas", serif;
- 	       background-color: #f5f9ea;
-        margin: 0; /* Reset default margin */
-  			      padding: 0; /* Reset default padding */
+
+        margin: 0; 
+  			      padding: 0; 
       }
       
      .header {
@@ -54,8 +65,8 @@
       color: #1c3141;
       font-family: "bucketlist-210";
       font-size: 100px;
-      margin: 20px 20px 75px 20px; /* Adjusted margin for top-left corner */
-      text-align: left; /* Align text to the left */
+      margin: 20px 20px 75px 20px; 
+      text-align: left; 
      }
 
       
@@ -78,22 +89,28 @@
       padding: 20px; 
       height: 500px
     }
+      /* blurb text */
       .p1 {
         font-family: "athelas", serif;
         font-size: 20px; 
       }
+        /* checkout my work text */
       .p2 {
         font-family: "bucketlist-210", sans-serif;
         font-size: 30px; 
         text-align: center;
-        margin-top: 230px;
+        margin-top: 210px;
+        position: absolute;
+        left: 38%;
       }
-      
+      /* madefromscraps text */
       .p3{
         font-family: "bucketlist-210", sans-serif;
-        font-size: 30px; 
+        font-size: 50px; 
         margin-top: 20px;
         text-align: right;
+        margin-left: 30px;
+ 
       }
   
       a:link {
@@ -102,7 +119,7 @@
 
     .footer {
     background-color: #1c3141;
-    margin-top: -500px; /* Adjusted top margin to align with the blue container */
+    margin-top: -500px; 
     width: 100%;
     height: 10%;
     text-align: right;
@@ -110,17 +127,20 @@
   
   }
       .footer a {
-    margin-right: 20px;
+      margin-right: 20px;
   }
       
       .heartimg {
-         margin-left: 430px;
-         margin-top: -120px;  
+      position: fixed;
+      left: 60%; 
+      top: 63%; 
+        
       }
       
       .casestudy1 {
+         position: fixed;
          margin-left: 20px;  
-         margin-top: 40px;
+         margin-top: 200px;
       }
       
     </style>
@@ -144,7 +164,7 @@
       </p>
       
       <p class="p3">
-        MadeFromScapes
+        MadeFromScraps
       </p>
    
       <div class="heartimg">
